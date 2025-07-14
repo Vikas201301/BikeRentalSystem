@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+}
+.booking-history {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history-table th,
+.history-table td {
+  border: 1px solid #000000;
+  padding: 8px;
+  background-color: rgb(67, 132, 110);
+}
+
+.history-table th {
+  background-color: #7e9a50;
+  text-align: center;
+}

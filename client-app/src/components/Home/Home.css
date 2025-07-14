@@ -1,0 +1,167 @@
+
+*{
+    margin:0px;
+}
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+
+}
+
+
+
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.nav-links li:hover {
+  color: #00bcd4;
+}
+
+.hero {
+    background-color: rgb(209, 208, 208);
+  height: 80vh;
+  
+
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:ghostwhite;
+  text-shadow: 0 0 10px #000;
+  text-align: center;
+  
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color:green;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: none;
+}
+
+.hero p {
+  font-size: 20px;
+  margin: 10px 0;
+  text-shadow: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: orange;
+}
+
+.hero button {
+  background-color: #00bcd4;
+  padding: 12px 24px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  
+}
+
+.hero button:hover{
+  display: block;
+}
+
+.bike-section,
+.why-section,
+.how-it-works,
+.testimonials {
+  padding: 60px 40px;
+  background-color: #4ccbcf;
+  text-align: center;
+}
+
+.bike-section h2,
+.why-section h2,
+.how-it-works h2,
+.testimonials h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.bike-list,
+.why-grid,
+.steps,
+.testimonial-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bike-card,
+.why-card,
+.step,
+.testimonial {
+  background: rgb(226, 226, 223);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(93, 84, 84, 0.1);
+  width: 250px;
+  text-align: center;
+  
+}
+
+.bike-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.bike-card button {
+  background-color: #00bcd4;
+  padding: 8px 16px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-content h4 {
+  margin-bottom: 10px;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #555;
+  padding-top: 10px;
+}
